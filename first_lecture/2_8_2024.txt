@@ -1,0 +1,62 @@
+#String formation 
+-------------------------------------
+Hello world
+"Hello sandeep"
+'Hello sandeep'
+"hello" + "sandeep"
+'hellosandeep'
+"hello" + " " + "sandeep"
+'hello sandeep'
+a = 20
+20
+b =20
+20
+alert("sum of two number " + (a+b))
+undefined
+alert("sum of a and b is (a+b)")
+undefined
+alert(`sum of ${a} and ${b} is ${(a+b)}`)
+--------------------------------------------------
+
+#operators
+-----------------
++, -,*,/, %
+--------------------
+20+30
+50
+30-10
+20
+25*26
+650
+100/20
+5
+100%20
+
+---------------------------------------------------
+Java Script is a dynamically typed programming language
+-----------------------
+Static 
+c, c++, java
+Dynamic
+Js, python
+-------------------------
+
+
+#variables
+----------------------
+variables can be decalared in 4 ways
+1. Automatically
+a = 10
+b = 20
+
+
+2. using var
+#from 1995 to 2015 var key 
+var a = 10
+var b = 20
+var c = a + b
+console.log('sum of two numbers is' + c)
+
+3. using let
+4. using const
+-------------------------
