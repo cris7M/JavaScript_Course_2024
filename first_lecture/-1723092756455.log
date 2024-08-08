@@ -1,0 +1,63 @@
+script.js:33 hello, sandeep
+script.js:38 30 19.99
+script.js:43 true false
+script.js:47 undefined
+script.js:51 null
+script.js:56 false
+script.js:60 759843759843759843574398574398574398574359843754398754398
+script.js:91 Thu Aug 08 2024 10:08:31 GMT+0530 (India Standard Time)
+let first name = "sandeep"
+VM91:1 Uncaught SyntaxError: Unexpected identifier 'name'
+console.log(typeof "hello")
+VM154:1 string
+undefined
+console.log(typeof 42)
+VM228:1 number
+undefined
+console.log(typeof 7.8)
+VM254:1 number
+undefined
+console.log(typeof true)
+VM281:1 boolean
+undefined
+console.log(typeof false)
+VM315:1 boolean
+undefined
+console.log(typeof null)
+VM351:1 object
+undefined
+let x ;
+VM373:1 Uncaught SyntaxError: Identifier 'x' has already been declared
+let a;
+undefined
+let b = null;
+undefined
+b
+null
+typeof
+    b
+'object'
+console.log(typeof Symbo)
+VM524:1 undefined
+undefined
+console.log(typeof Symbol('id'))
+VM552:1 symbol
+undefined
+console.log(typeof 7539485739584375943875439857439587439543759438754398574395437985)
+VM615:1 number
+undefined
+console.log(typeof 7539485739584375943875439857439587439543759438754398574395437985n)
+VM627:1 bigint
+undefined
+console.log(typeof {name:"sandeep", age:37})
+VM713:1 object
+undefined
+console.log(typeof [1,2,3,4])
+VM738:1 object
+undefined
+console.log(typeof function(){})
+VM786:1 function
+undefined
+console.log(typeof new Date())
+VM830:1 object
+undefined
