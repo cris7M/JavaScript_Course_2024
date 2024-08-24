@@ -48,6 +48,7 @@ console.log(x);
 
 // null
 let y = null;
+c;
 console.log(y);
 
 // Symbol
