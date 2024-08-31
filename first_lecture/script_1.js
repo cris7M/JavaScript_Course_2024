@@ -271,8 +271,105 @@ jfhfkds
 
 // console.log(sum(30));
 
-const multiply = (a, b) => {
-  return a * b;
-};
+// const multiply = (a, b) => {
+//   return a * b;
+// };
 
-console.log(multiply(10, 20));
+// console.log(multiply(10, 20));
+
+// for of
+// for in
+// string
+// ojbect
+// Array
+
+// string
+
+let name = "magesh";
+// console.log(name.length);
+// console.log(name.toUpperCase());
+// console.log(name.toLowerCase());
+// console.log(name.charAt(0));
+// console.log(name.substring(0, n - 1));
+
+// console.log(name);
+
+// for (let i = 0; i < name.length; i++) {
+//   console.log(name[i]);
+// }
+
+// String, array -> of
+// for (let i of name) {
+//   console.log(i); // iteratin
+// }
+
+// key value -> in
+
+// for (let i in name) { //key value
+//   console.log(name[i]);
+// }
+
+// arrays
+// let fruite_1= "apple";
+// let fruite_2= "banana"
+// let fruite_3= "orange"
+//string
+// let name_1 = "magesh";
+// console.log(name_1.charAt(1));
+
+// // syntax
+// // array
+// let fruits = ["apple", "banana", "orange"];
+// console.log(fruits.length);
+// fruits.push("mango");
+// console.log(fruits);
+// fruits.pop();
+// console.log(fruits);
+// fruits.shift();
+// console.log(fruits);
+// fruits.unshift("apple");
+// console.log(fruits);
+
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(fruits[i]);
+// }
+
+// for (let i in fruits) {
+//   console.log(i);
+// }
+
+// for (let i of fruits) {
+//   console.log(i);
+// }
+// static type  c, c++, java
+// dynamic type  python and javascript
+
+let new_array = [1, "asdkjas", { name: "sandeep" }, [1, 2, 3, 3]];
+
+// for (array in new_array) {
+//   console.log(array);
+// }
+
+// for (array of new_array) {
+//   console.log(array);
+// }
+
+console.log("1. simple for loop operation----------");
+for (let i = 0; i < new_array.length; i++) {
+  console.log(new_array[i]);
+}
+
+console.log("2. for loop with of operator operation----------");
+for (let i of new_array) {
+  console.log(i);
+}
+
+console.log("3. for each operation----------");
+new_array.forEach((array_element) => {
+  console.log(array_element);
+});
+
+// new_array.forEach((element) => {
+//   console.log(element);
+// });
+// console.log(new_array);
